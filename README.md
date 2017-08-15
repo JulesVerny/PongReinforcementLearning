@@ -13,4 +13,4 @@ This is NOT a Convolutional Network based RL, based Game Video Frame states [Whi
 The  Pong Game Code is based upon Siraj Raval's inspiring vidoes on Machine learning and Reinforcement Learning [ Which is full convolutional DQN example]  https://github.com/llSourcell/pong_neural_network_live
 
 The DQN Agent Software is Based upon Jaromir Janisch  source code: 
-# https://jaromiru.com/2016/10/03/lets-make-a-dqn-implementation/
+https://jaromiru.com/2016/10/03/lets-make-a-dqn-implementation/
