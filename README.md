@@ -1,4 +1,4 @@
--# PongReinforcementLearning
+PongReinforcementLearning
 Deep DQN Based Reinforcement Leaning for simple Pong PyGame 
 
 MyPong DQN Reinforcement Learning Experiment
@@ -10,4 +10,7 @@ The Moving Average Score is calculated in range from [-10, +10] from Complete fa
 
 This is NOT a Convolutional Network based RL, based Game Video Frame states [Which in my experience takes much too Long to Learn on standard PCs] and so unfortunaly this is Game Specific DQN Reinforecment Learning, and cannot be generalised to other games. Requires specific Features to be identified. 
       
-The  code is based upon Siraj Raval's inspiring vidoes on Machine learning and Reinforcement Learning [ Which is full convolutional DQN example]  https://github.com/llSourcell/pong_neural_network_live
+The  Pong Game Code is based upon Siraj Raval's inspiring vidoes on Machine learning and Reinforcement Learning [ Which is full convolutional DQN example]  https://github.com/llSourcell/pong_neural_network_live
+
+The DQN Agent Software is Based upon Jaromir Janisch  source code: 
+# https://jaromiru.com/2016/10/03/lets-make-a-dqn-implementation/
