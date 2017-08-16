@@ -1,6 +1,5 @@
-## PongReinforcementLearning
+ ## Pong Game Reinforcement Learning
 Deep DQN Based Reinforcement Leaning for simple Pong PyGame 
-
 This DQN experiment plays a Py Pong Game (DQN control of Left Hand Yellow Paddle)
 
 ![alt text](https://github.com/JulesVerny/PongReinforcementLearning/blob/master/PongPicture2.PNG "Game Play")
