@@ -1,4 +1,4 @@
- ## Pong Game Reinforcement Learning
+## Pong Game Reinforcement Learning
 Deep DQN Based Reinforcement Leaning for simple Pong PyGame 
 This DQN experiment plays a Py Pong Game (DQN control of Left Hand Yellow Paddle)
 
@@ -11,6 +11,9 @@ The Moving Average Score is calculated in range from [-10, +10] from Complete fa
 This is NOT a Convolutional Network based RL (based Game Video Frame states, because in my experience CN's takes much too Long to Learn on standard PCs: GPUs] and so unfortunately this is Game Specific DQN Reinforecment Learning, and cannot be generalised to other games like Deep minds ATARI game approach 
 
 ![alt text](https://github.com/JulesVerny/PongReinforcementLearning/blob/master/ScoreGrowth.png "Score growth")      
+
+## Useage
+python MyExperiment.py
 
 ### Acknowledgments:
 
