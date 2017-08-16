@@ -21,5 +21,8 @@ The  Pong Game Code is based upon Siraj Raval's inspiring vidoes on Machine lear
 The DQN Agent Software is Based upon Jaromir Janisch source code: 
 https://jaromiru.com/2016/10/03/lets-make-a-dqn-implementation/
 
-Daninel Slaters Blog:
+Daniel Slaters Blog & Examples:
 http://www.danielslater.net/2016/03/deep-q-learning-pong-with-tensorflow.html?showComment=1502902115538
+
+WILDML Reinforcement Learning Summary (Examples):
+http://www.wildml.com/2016/10/learning-reinforcement-learning/
