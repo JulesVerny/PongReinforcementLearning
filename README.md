@@ -4,6 +4,7 @@ Deep DQN Based Reinforcement Leaning for simple Pong PyGame
 This DQN experiment plays a Py Pong Game (DQN control of Left Hand Yellow Paddle)
 
 ![alt text](https://github.com/JulesVerny/PongReinforcementLearning/blob/master/PongPicture2.PNG "Game Play")
+
 The Objective is simply measured as succesfully returning of the Ball 
 The programmed oponent player is a pretty hot player. Imagine success as being able to return ball served from Serena Williams.
 The Moving Average Score is calculated in range from [-10, +10] from Complete failure to return the balls, to full success in returning the Ball. This experiment demonstrates DQN based Reinforcement Learning Agent, which improves from poor performace ~ -8.0 towards reasonably good ~ +9.0 (Fluctuating) return rate in around 10,000 game update cycles [Not returns] The Agent employs Direct Features [ Paddle Y, Ball X, Y and Ball X,Y Directions feeding into DQN Nueral net Estimator of Q[S,A] function. 
