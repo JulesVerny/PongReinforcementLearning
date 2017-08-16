@@ -65,12 +65,12 @@ class ExpReplay:   # stored as ( s, a, r, s_ )
 # =====================================================================================
 # DQN Reinforcement Learning Algorithm  Hyper Parameters
 ExpReplay_CAPACITY = 2000
-OBSERVEPERIOD = 1000		# Period actually start real Training against Experieced Replay Batches 
+OBSERVEPERIOD = 750		# Period actually start real Training against Experieced Replay Batches 
 BATCH_SIZE = 128
 GAMMA = 0.95				# Q Reward Discount Gamma
 MAX_EPSILON = 1
 MIN_EPSILON = 0.05
-LAMBDA = 0.00025      		# Speed of Epsilon decay
+LAMBDA = 0.0005      		# Speed of Epsilon decay
 # ============================================================================================
 class Agent:
 	def __init__(self, NbrStates, NbrActions):
@@ -96,7 +96,8 @@ class Agent:
 
 		# slowly decrease Epsilon based on our eperience
 		self.steps += 1
-		self.epsilon = MIN_EPSILON + (MAX_EPSILON - MIN_EPSILON) * math.exp(-LAMBDA * self.steps)
+		if(self.steps>OBSERVEPERIOD):
+			self.epsilon = MIN_EPSILON + (MAX_EPSILON - MIN_EPSILON) * math.exp(-LAMBDA * (self.steps-OBSERVEPERIOD))
 
 	# ============================================
 	# Perform an Agent Training Cycle Update by processing a set of sampels from the Experience Replay memory 

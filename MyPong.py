@@ -82,7 +82,7 @@ def updateBall(paddle1YPos, paddle2YPos, ballXPos, ballYPos, ballXDirection, bal
 	score = 0
 	NewBallColor = BallColour; 
     #checks for a collision, if the ball hits the Gamer Player side, our Learning agent
-	if (ballXPos <= PADDLE_BUFFER + PADDLE_WIDTH and ballYPos + BALL_HEIGHT >= paddle1YPos and ballYPos - BALL_HEIGHT <= paddle1YPos + PADDLE_HEIGHT):
+	if (ballXPos <= PADDLE_BUFFER + PADDLE_WIDTH and ballYPos + BALL_HEIGHT >= paddle1YPos and ballYPos - BALL_HEIGHT <= paddle1YPos + PADDLE_HEIGHT and ballXDirection == -1):
 		#switches directions
 		ballXDirection = 1
 		#  Player returned the Ball Make the Objective Score (Reward) whenever Returns the Ball  aka playing Serena

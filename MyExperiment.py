@@ -6,7 +6,7 @@
 #  The programed oponent player is a pretty hot player. Imagine success as being able to return ball served from Serena Williams)
 #  Moving Average Score from [-10, +10] from Complete failure to return the balls, to full success in returning the Ball.
 #
-#  This is a Direct Features [ Paddle Y, Ball X, Y and Ball X,Y Directions feeding into DQN Nueral ne Estimator of Q[S,A] function
+#  This Reinforcement learning employs Direct Features [ Paddle Y, Ball X, Y and Ball X,Y Directions feeding into DQN Nueral net Estimator of Q[S,A] function.
 #  So this is NOT a Convolutional Network based RL, based Game Video Frame states [Which in my experience takes much too Long to Learn on standard PCs] 
 #  So unfortunaly this is Game Specific DQN Reinforecment Learning, and cannot be generalised to other games. Requires specific Features to be identified. 
 #      
@@ -28,7 +28,7 @@ import matplotlib.pyplot as plt
 #   DQN Algorith Paramaters 
 ACTIONS = 3 # Number of Actions.  Acton istelf is a scalar:  0:stay, 1:Up, 2:Down
 STATECOUNT = 5 # Size of State [ PlayerYPos, BallXPos, BallYPos, BallXDirection, BallYDirection] 
-TOTAL_GAMETIME = 17500
+TOTAL_GAMETIME = 15000
 # =======================================================================
 # Normalise GameState
 def CaptureNormalisedState(PlayerYPos, BallXPos, BallYPos, BallXDirection, BallYDirection):
