@@ -1,4 +1,4 @@
-## Pong Game Reinforcement Learning
+### Pong Game Reinforcement Learning
 Deep DQN Based Reinforcement Leaning for simple Pong PyGame 
 This DQN experiment plays a Py Pong Game (DQN control of Left Hand Yellow Paddle)
 
@@ -12,9 +12,10 @@ This is NOT a Convolutional Network based RL (based Game Video Frame states, bec
 
 ![alt text](https://github.com/JulesVerny/PongReinforcementLearning/blob/master/ScoreGrowth.png "Score growth")      
 
-## Useage
+### Useage
 python MyExperiment.py
-
+### Main Package Dependencies
+pygame, keras [hence TensorFlow,Theano], numpy, matplotlib
 ### Acknowledgments:
 
 The  Pong Game Code is based upon Siraj Raval's inspiring vidoes on Machine learning and Reinforcement Learning [ Which does employ full convolutional DQN example]  https://github.com/llSourcell/pong_neural_network_live
