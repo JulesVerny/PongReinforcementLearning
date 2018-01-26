@@ -9,6 +9,8 @@ The Moving Average Score is calculated in range from [-10, +10] from Complete fa
 
 This is NOT a Convolutional Network based RL [based Game Video Frame states, because in my experience CN's takes much too Long to Learn on standard PCs: GPUs] and so unfortunately this is Game Specific DQN Reinforecment Learning, and cannot be generalised to other Games like Deep minds ATARI game approach based upon Convolutional Network layers.   
 
+Please see my other repository for a Convolotional DQN game of Pong
+
 ![alt text](https://github.com/JulesVerny/PongReinforcementLearning/blob/master/ScoreGrowth.png "Score growth")      
 
 ### Useage
